@@ -43,7 +43,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: seedgou/zerotier-moon,ghcr.io/rwv/zerotier-moon
+          images: kaaass/zerotier-moon,ghcr.io/kaaass/zerotier-moon
 
       # Build and push Docker image with Buildx (don't push on PR)
       # https://github.com/docker/build-push-action
